@@ -1,0 +1,29 @@
+.navbar {
+    opacity: 0.9; 
+    -moz-opacity: 0.9; 
+    -webkit-opacity: 0.9;
+}
+
+.navbar li { 
+    font-size: 16px;
+} 
+
+@font-face {
+    font-family: "Formation Sans Regular";
+    src: url("/Fonts/Formation Sans Regular.ttf");
+}
+
+#pageTitle
+{
+    font:  italic 30px "Formation Sans Regular", arial;
+    padding:5px 10px 5px 0px;
+}
+
+.needSpaceBetweenHeader{
+    margin-top: 60px;
+}
+
+#logo{
+    max-width:160px !important; 
+    margin-top: -7px;
+}
